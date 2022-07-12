@@ -7,4 +7,6 @@ while True:
     win32clipboard.CloseClipboard()
     with open('cliplog.txt', 'a+') as f:
         f.write(data + '\n')
-    time.sleep(5)
+    time.sleep(1)
+    print('Done! Press CTRL + C to exit.');
+    time.sleep(100000)
